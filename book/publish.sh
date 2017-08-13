@@ -1,6 +1,16 @@
 # install the plugins and build the static site
 gitbook install && gitbook build
 
+# Generate a PDF file
+gitbook pdf ./ ./mybook.pdf
+
+# Generate an ePub file
+gitbook epub ./ ./mybook.epub
+
+# Generate a Mobi file
+gitbook mobi ./ ./mybook.mobi
+
+cd ../
 # checkout to the gh-pages branch
 git checkout gh-pages
 
