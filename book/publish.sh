@@ -2,20 +2,20 @@
 gitbook install && gitbook build
 
 # Generate a PDF file
-gitbook pdf ./ ./mybook.pdf
+gitbook pdf ./ ./জীবনানন্দ-দাশের-কবিতাসমগ্র.pdf
 
 # Generate an ePub file
-gitbook epub ./ ./mybook.epub
+gitbook epub ./ ./জীবনানন্দ-দাশের-কবিতাসমগ্র.epub
 
 # Generate a Mobi file
-gitbook mobi ./ ./mybook.mobi
+gitbook mobi ./ ./জীবনানন্দ-দাশের-কবিতাসমগ্র.mobi
 
 cd ../
 # checkout to the gh-pages branch
-git checkout gh-pages
+git checkout master
 
 # pull the latest updates
-git pull origin gh-pages --rebase
+git pull origin master --rebase
 
 # copy the static site files into the current directory.
 cp -R _book/* .
@@ -31,7 +31,7 @@ git add .
 git commit -a -m "Update Book"
 
 # push to the origin
-git push origin gh-pages
+git push -u origin master
 
 # checkout to the master branch
 git checkout master
