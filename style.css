@@ -28,6 +28,12 @@
 .bg-grey {
   background: #363636;
   color: white; }
+  .bg-grey a {
+    color: white; }
+  .bg-grey a:hover {
+    color: #ededed; }
+  .bg-grey a:active {
+    color: #ededed; }
 
 .bg-white {
   background: white;
@@ -85,13 +91,41 @@ a:hover {
   position: relative; }
 
 .git {
-  color: #ededed; }
+  color: #ededed !important; }
 
 .git a {
-  color: #ededed; }
+  color: #ededed !important; }
 
 .git a:hover {
-  color: white; }
+  color: white !important; }
+
+.fb {
+  color: #ededed !important; }
+
+.fb:hover {
+  color: #3b5998 !important;
+  box-shadow: 1px 2px 4px #303030 !important; }
+
+.twt {
+  color: #ededed !important; }
+
+.twt:hover {
+  color: #1da1f2 !important;
+  box-shadow: 1px 2px 4px #303030 !important; }
+
+.tmblr {
+  color: #ededed !important; }
+
+.tmblr:hover {
+  color: #35465c !important;
+  box-shadow: 1px 2px 4px #303030 !important; }
+
+.gplus {
+  color: #ededed !important; }
+
+.gplus:hover {
+  color: #d34836 !important;
+  box-shadow: 1px 2px 4px #303030 !important; }
 
 /* Header */
 #header {
@@ -103,5 +137,7 @@ a:hover {
 /* Content */
 /* Aside */
 /* Footer */
+.auto-basis {
+  flex-basis: auto !important; }
 
 /*# sourceMappingURL=style.css.map */
