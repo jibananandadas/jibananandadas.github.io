@@ -5,3 +5,7 @@
 প্রণত  
 *উৎসর্গ রায়*  
 (সম্পাদকমণ্ডলীর পক্ষে)  
+
+### ডাউনলোড করুন
+
+[পিডিএফ](https://github.com/jibananandadas/jibananandadas.github.io/raw/master/book/জীবনানন্দ-দাশের-কবিতাসমগ্র.pdf) [ইপাব](https://github.com/jibananandadas/jibananandadas.github.io/raw/master/book/জীবনানন্দ-দাশের-কবিতাসমগ্র.epub) [মোবি](https://github.com/jibananandadas/jibananandadas.github.io/raw/master/book/জীবনানন্দ-দাশের-কবিতাসমগ্র.mobi)
