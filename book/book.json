@@ -3,9 +3,9 @@
     "plugins": ["disqus"],
     "pluginsConfig": {
         "disqus": {
-            "shortName": "jibananandaorg"
+            "shortName": "jibanananda"
         }
     },
-	"plugins": ["search"],
+    "plugins": ["search"],
     "plugins": ["expandable-chapters"]
 }
