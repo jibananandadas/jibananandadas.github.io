@@ -10,7 +10,7 @@ gitbook epub ./ ./জীবনানন্দ-দাশের-কবিতাস
 # Generate a Mobi file
 gitbook mobi ./ ./জীবনানন্দ-দাশের-কবিতাসমগ্র.mobi
 
-cd ../
+
 # checkout to the gh-pages branch
 git checkout master
 
@@ -20,6 +20,7 @@ git pull origin master --rebase
 # copy the static site files into the current directory.
 cp -R _book/* .
 
+cd ../
 # remove 'node_modules' and '_book' directory
 git clean -fx node_modules
 git clean -fx _book
