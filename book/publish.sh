@@ -32,6 +32,8 @@ git pull origin master --rebase
 cp -R _book/* .
 
 cd ../
+cp favicon.ico book/gitbook/images
+cp apple-touch-icon-precomposed-152 book/gitbook/images
 # remove 'node_modules' and '_book' directory
 git clean -fx node_modules
 git clean -fx _book
