@@ -7,11 +7,5 @@
         }
     },
 	"plugins": ["search"],
-    "plugins": ["expandable-chapters"],
-    "plugins": ["thumbnail"],
-    "pluginsConfig": {
-    "thumbnail": {
-        "path": "cover.jpg"
-    }
-}
+    "plugins": ["expandable-chapters"]
 }
