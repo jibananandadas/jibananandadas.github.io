@@ -1,7 +1,7 @@
 name: জীবনানন্দ দাশের কবিতাসমগ্র
 title: জীবনানন্দ দাশের কবিতাসমগ্র
 url: https://jibanananda.ml
-baseurl: /theme
+baseurl: 
 kramdown:
  input: GFM
  auto_ids: true
