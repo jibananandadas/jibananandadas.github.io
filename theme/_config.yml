@@ -1,0 +1,7 @@
+name: জীবনানন্দ দাশের কবিতাসমগ্র
+title: জীবনানন্দ দাশের কবিতাসমগ্র
+kramdown:
+ input: GFM
+ auto_ids: true
+ hard_wrap: false
+ syntax_highlighter: rouge
