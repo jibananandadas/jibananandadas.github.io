@@ -1,0 +1,174 @@
+    @import url('https://fonts.googleapis.com/css?family=Anonymous+Pro:700');
+    @import url('https://fonts.googleapis.com/css?family=Crete+Round');
+    @font-face {
+        font-family: myfont;
+        src: url(NotoSansBengali-Regular.ttf);
+    }
+    /* Colors */
+    
+    .blue {
+        color: #00b0bf;
+    }
+    
+    .black {
+        color: #000000;
+    }
+    
+    .grey {
+        color: #363636;
+    }
+    
+    .grey-dark {
+        color: #303030
+    }
+    
+    .white {
+        color: #ffffff;
+    }
+    
+    .gloomy {
+        color: #ededed;
+    }
+    
+    .bg-light-grey {
+        background: lightgray;
+    }
+    
+    .bg-grey {
+        background: #363636;
+        color: white;
+        a {
+            color: white;
+        }
+        a:hover {
+            color: #ededed;
+        }
+        a:active {
+            color: #ededed;
+        }
+    }
+    
+    .bg-white {
+        background: white;
+        color: #363636;
+    }
+    /* Links and Buttons */
+    
+    a {
+        color: #373737;
+        font-weight: bold;
+        text-decoration: none;
+    }
+    
+    a:hover {
+        color: #343434
+    }
+    
+    .btn-grey {
+        color: #ededed;
+        font-weight: bold;
+        text-decoration: none;
+        padding: 15px;
+        background: #373737;
+        border-radius: 5px;
+        box-shadow: 1px 2px 4px grey;
+        margin: 10px;
+    }
+    
+    .btn-grey:hover {
+        color: #ffffff;
+        background: #404040;
+        box-shadow: 2px 4px 4px grey;
+    }
+    
+    .btn-block {
+        padding: 40px;
+        border: 8px solid #363636;
+        border-radius: 15px;
+        color: #363636;
+        display: block;
+        width: 200px;
+        height: 200px;
+    }
+    
+    .btn-block:hover {
+        color: #000;
+        border: 8px solid #000;
+        box-shadow: 2px 4px 4px grey;
+        -webkit-transform: rotateX(360deg);
+        -moz-transform: rotateX(360deg);
+        -o-transform: rotateX(360deg);
+        transform: rotateX(360deg);
+        -webkit-transition: 1s;
+        -webkit-transform-style: preserve-3d;
+        -moz-transition: 1s;
+        -moz-transform-style: preserve-3d;
+        -o-transition: 1s;
+        -o-transform-style: preserve-3d;
+        transition: 1s;
+        transform-style: preserve-3d;
+        position: relative;
+    }
+    
+    .git {
+        color: #ededed !important;
+    }
+    
+    .git a {
+        color: #ededed !important;
+    }
+    
+    .git a:hover {
+        color: white !important;
+    }
+    
+    .fb {
+        color: #ededed !important;
+    }
+    
+    .fb:hover {
+        color: #3b5998 !important;
+        box-shadow: 1px 2px 4px #303030 !important;
+    }
+    
+    .twt {
+        color: #ededed !important;
+    }
+    
+    .twt:hover {
+        color: #1da1f2 !important;
+        box-shadow: 1px 2px 4px #303030 !important;
+    }
+    
+    .tmblr {
+        color: #ededed !important;
+    }
+    
+    .tmblr:hover {
+        color: #35465c !important;
+        box-shadow: 1px 2px 4px #303030 !important;
+    }
+    
+    .gplus {
+        color: #ededed !important;
+    }
+    
+    .gplus:hover {
+        color: #d34836 !important;
+        box-shadow: 1px 2px 4px #303030 !important;
+    }
+    /* Header */
+    
+    #header {
+        background: #ededed;
+        min-height: 100px;
+    }
+    /*--Logo--*/
+    /*--Menue--*/
+    /* Content */
+    /* Aside */
+    /* Footer */
+    
+    .auto-basis {
+        flex-basis: auto !important;
+    }
