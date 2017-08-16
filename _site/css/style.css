@@ -133,9 +133,28 @@ a:hover {
   min-height: 100px; }
 
 /*--Logo--*/
+#logo {
+  max-width: 60%;
+  height: auto;
+  border-radius: 5px;
+  box-shadow: 2px 4px 4px black;
+  margin-top: 20px;
+  border-radius: 50%; }
+
 /*--Menue--*/
 /* Content */
 /* Aside */
+#sidebar {
+  min-height: 100vh;
+  box-shadow: 1px 2px 4px #303030; }
+  #sidebar hr {
+    border-bottom: 2px solid #ededed;
+    line-height: 1em; }
+  #sidebar a {
+    line-height: 1em; }
+  #sidebar #social-links {
+    font-size: xx-large; }
+
 /* Footer */
 .auto-basis {
   flex-basis: auto !important; }
