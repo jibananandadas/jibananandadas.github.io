@@ -127,6 +127,13 @@ a:hover {
   color: #d34836 !important;
   box-shadow: 1px 2px 4px #303030 !important; }
 
+.rss {
+  color: #ededed !important; }
+
+.rss:hover {
+  color: #ff6600 !important;
+  box-shadow: 1px 2px 4px #303030 !important; }
+
 /* Header */
 #header {
   background: #ededed;
