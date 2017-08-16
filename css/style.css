@@ -143,6 +143,9 @@ a:hover {
 
 /*--Menue--*/
 /* Content */
+#content {
+  font-size: 1.3em; }
+
 /* Aside */
 #sidebar {
   min-height: 100vh;
